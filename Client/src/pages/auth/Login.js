@@ -47,7 +47,8 @@ const Login = () => {
 
     <>
       <TopSlideShow />
-      <div className="container">
+      <div className="section-between"></div>
+      <div className="container mb-5">
         <div className="row justify-content-center">
           <div className="col-md-7 col-lg-6 center-screen">
             <div className="card w-100  p-2">

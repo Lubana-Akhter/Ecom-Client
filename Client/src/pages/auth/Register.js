@@ -45,7 +45,7 @@ const RegisterPage = () => {
         <div>
             <TopSlideShow />
             <Banner title="" />
-            <div className="container mt-5">
+            <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-md-7 col-lg-6 center-screen">
                         <div className='card w-100  p-2 mb-5'>

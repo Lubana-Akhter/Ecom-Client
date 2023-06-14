@@ -2,11 +2,13 @@ import { useSearch } from "../context/search";
 import ProductCard from "../components/cards/ProductCard";
 import Banner from "../components/cards/Banner";
 
+
 const Search=()=> {
   const [values, setValues] = useSearch();
 
   return (
     <>
+     <div className="section-between"></div>
       <Banner
         title="Search results"
         subTitle={

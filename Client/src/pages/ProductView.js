@@ -53,9 +53,9 @@ const ProductView=()=> {
   };
 
   return (
-    <div className="container-fluid">
+    <div className="container-fluid section-between">
       <div className="row">
-        <div className="col-md-9">
+        <div className="col-md-8">
           <div className="card mb-3">
             <Badge.Ribbon text={`${product?.sold} sold`} color="red">
               <Badge.Ribbon
@@ -67,7 +67,7 @@ const ProductView=()=> {
                 color="green"
               >
                 <img
-                  className="card-img-top"
+                  className="card-img-top img-fluid"
                   src={`${process.env.REACT_APP_API}/product/photo/${product._id}`}
                   alt={product.name}
                   style={{ height: "500px", width: "100%", objectFit: "cover" }}

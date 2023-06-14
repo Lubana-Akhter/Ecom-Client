@@ -69,8 +69,46 @@
     margin-right: 10px;
   }
   
+.section-between{
+    margin-top: 5rem;
+}
+.form-control {
+    height: 2.3rem !important;
+    /* width: 100% !important; */
+    font-size: 15px !important;
+    line-height: 30px;
+    font-family: 'Helvetica', Arial, Lucida, sans-serif;
+    font-weight: 500;
+    text-align: left;
+    background-color: #f7fafc !important;
+    /* border: rgb(235, 235, 235) 1px solid !important; */
+    color: #555555;
+    border-radius: none !important;
 
+}
 
+.form-control:focus {
+    /* border-radius: 2px !important; */
+    box-shadow: 0 0 4px 0 rgba(255, 127, 80, 0.9) !important;
+}
+
+.form-textarea {
+    height: 6rem !important;
+    font-size: 15px !important;
+    line-height: 30px;
+    font-family: 'Helvetica', Arial, Lucida, sans-serif;
+    font-weight: 500;
+    text-align: left;
+    background-color: #f7fafc !important;
+    border: rgb(235, 235, 235) 1px solid !important;
+    color: #555555;
+
+}
+
+.form-textarea:focus {
+    border-radius: 2px !important;
+    box-shadow: 0 0 4px 0 rgba(255, 127, 80, 0.9) !important;
+}
 /* End navigation */
 
 /* start Banner */
@@ -499,41 +537,7 @@
     word-spacing: 0px;
 }
 
-.form-control {
-    height: 2.6rem !important;
-    font-size: 15px !important;
-    line-height: 30px;
-    font-family: 'Helvetica', Arial, Lucida, sans-serif;
-    font-weight: 500;
-    text-align: left;
-    background-color: #f7fafc !important;
-    border: rgb(235, 235, 235) 1px solid !important;
-    color: #555555;
 
-}
-
-.form-control:focus {
-    border-radius: 2px !important;
-    box-shadow: 0 0 4px 0 rgba(255, 127, 80, 0.9) !important;
-}
-
-.form-textarea {
-    height: 6rem !important;
-    font-size: 15px !important;
-    line-height: 30px;
-    font-family: 'Helvetica', Arial, Lucida, sans-serif;
-    font-weight: 500;
-    text-align: left;
-    background-color: #f7fafc !important;
-    border: rgb(235, 235, 235) 1px solid !important;
-    color: #555555;
-
-}
-
-.form-textarea:focus {
-    border-radius: 2px !important;
-    box-shadow: 0 0 4px 0 rgba(255, 127, 80, 0.9) !important;
-}
 
 .commonDesc {
     color: #555555;

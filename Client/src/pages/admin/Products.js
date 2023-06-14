@@ -7,7 +7,7 @@ import moment from "moment";
 import Banner from "../../components/cards/Banner";
 
 
-const AdminProducts=()=> {
+const AdminProducts = () => {
   // context
   const [auth, setAuth] = useAuth();
   // state
@@ -28,7 +28,7 @@ const AdminProducts=()=> {
 
   return (
     <>
-    
+      <div className="section-between"></div>
       <Banner
         title={`Hello ${auth?.user?.name}`}
         subTitle="Admin Dashboard"

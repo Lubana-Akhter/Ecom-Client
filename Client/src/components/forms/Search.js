@@ -26,7 +26,6 @@ const Search = () => {
     <form className="d-flex" role="search" onSubmit={handleSubmit}>
       <input
         type="search"
-        style={{ borderRadius: "0px" }}
         className="form-control"
         placeholder="Search"
         aria-label="Search"

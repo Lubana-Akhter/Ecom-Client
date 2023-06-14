@@ -8,6 +8,7 @@ const AdminDashboard=()=> {
 
   return (
     <>
+     <div className="section-between"></div>
       <Banner
         title={`Hello ${auth?.user?.name}`}
         subTitle="Admin Dashboard"

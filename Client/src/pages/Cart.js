@@ -14,7 +14,8 @@ const Cart=()=> {
 
   return (
     <>
-      <Banner
+    <div className="section-between"></div>
+      <Banner 
         title={`Hello ${auth?.token && auth?.user?.name}`}
         subTitle={
           cart?.length

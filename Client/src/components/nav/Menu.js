@@ -70,12 +70,12 @@ const Menu = () => {
                 {!auth?.user ? (
                   <ul className="horizontal-list">
                     <li className="nav-item ">
-                      <NavLink className="nav-link" to="/login">
+                      <NavLink className="nav-link btn btn-success" to="/login">
                         SIGN IN
                       </NavLink>
                     </li>
                     <li className="nav-item">
-                      <NavLink className="nav-link" to="/register">
+                      <NavLink className="nav-link btn btn-danger" to="/register">
                         SIGN UP
                       </NavLink>
                     </li>

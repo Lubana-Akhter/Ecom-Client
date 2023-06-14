@@ -9,7 +9,7 @@ import Banner from "../../components/cards/Banner";
 
 const { Option } = Select;
 
-const AdminOrders=()=> {
+const AdminOrders = () => {
   // context
   const [auth, setAuth] = useAuth();
   // state
@@ -50,6 +50,7 @@ const AdminOrders=()=> {
 
   return (
     <>
+      <div className="section-between"></div>
       <Banner title={`Hello ${auth?.user?.name}`} subTitle="Dashboard" />
 
       <div className="container-fluid">
