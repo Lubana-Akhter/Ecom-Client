@@ -8,6 +8,7 @@ const UserDashboard=()=> {
 
   return (
     <>
+<div className="section-between"></div>
       <Banner title={`Hello ${auth?.user?.name}`} subTitle="User Dashboard" />
 
       <div className="container-fluid">
