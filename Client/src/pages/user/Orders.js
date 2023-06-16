@@ -7,7 +7,7 @@ import moment from "moment";
 import ProductCardHorizontal from "../../components/cards/ProductCardHorizontal";
 import Banner from "../../components/cards/Banner";
 
-const UserOrders=()=> {
+const UserOrders = () => {
   // context
   const [auth, setAuth] = useAuth();
   // state
@@ -28,6 +28,7 @@ const UserOrders=()=> {
 
   return (
     <>
+      <div className="section-between"></div>
       <Banner title={`Hello ${auth?.user?.name}`} subTitle="Dashboard" />
 
       <div className="container-fluid">

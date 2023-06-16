@@ -38,7 +38,7 @@ const ProductCardHorizontal=({ p, remove = true })=> {
               {p.name}
               {p?.price?.toLocaleString("en-US", {
                 style: "currency",
-                currency: "USD",
+                currency: "BDT",
               })}
             </h5>
             <p className="card-text">{`${p?.description?.substring(

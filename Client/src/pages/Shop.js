@@ -5,6 +5,7 @@ import { Checkbox, Radio } from "antd";
 import { prices } from "../prices";
 import Banner from "../components/cards/Banner";
 import TopSlideShow from "../components/cards/TopSlideShow";
+import Footer from "../components/Footer";
 
 const Shop = () => {
     const [categories, setCategories] = useState([]);
@@ -68,10 +69,10 @@ const Shop = () => {
 
     return (
         <>
-        <TopSlideShow />
+            <TopSlideShow />
             <Banner title="" subTitle="Welcome to ShopSmart" />
 
-         
+
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-3">
@@ -130,6 +131,7 @@ const Shop = () => {
                     </div>
                 </div>
             </div>
+            <div> <Footer /></div>
         </>
     );
 }

@@ -5,7 +5,7 @@ const Banner = ({
     subTitle = "Welcome to ShopSmart",
 }) => {
 
-    
+
     return (
         <div
             className="container-fluid banner"
@@ -13,7 +13,7 @@ const Banner = ({
             <div className="row">
                 <div className="col text-center p-5">
                     <h1 className="fw-bold">{title}</h1>
-                    <p className="lead">{subTitle}</p>
+                    <p className="fs-2 text-info fw-bold">{subTitle}</p>
                 </div>
             </div>
         </div>

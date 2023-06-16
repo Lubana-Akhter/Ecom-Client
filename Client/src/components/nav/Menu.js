@@ -75,7 +75,7 @@ const Menu = () => {
                       </NavLink>
                     </li>
                     <li className="nav-item">
-                      <NavLink className="nav-link btn btn-danger" to="/register">
+                      <NavLink className="nav-link btn btn-danger " to="/register">
                         SIGN UP
                       </NavLink>
                     </li>

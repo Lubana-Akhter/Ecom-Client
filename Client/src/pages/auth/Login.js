@@ -6,7 +6,7 @@ import { useAuth } from "../../context/auth";
 import { useNavigate, useLocation } from "react-router-dom";
 import Banner from "../../components/cards/Banner";
 import TopSlideShow from "../../components/cards/TopSlideShow";
-
+import Footer from "../../components/Footer";
 const Login = () => {
   // state
   const [email, setEmail] = useState("");
@@ -63,7 +63,7 @@ const Login = () => {
                     value={password}
                     onChange={(e) => setPassword(e.target.value)} className="form-control animated fadeInUp" type="password" />
                   <br />
-                  <button className="btn w-100 animated fadeInUp float-end btn-primary" type="submit">Next</button>
+                  <button className="btn w-100 animated fadeInUp float-end btn-primary" type="submit">Submit</button>
 
                 </form>
               </div>
@@ -71,6 +71,7 @@ const Login = () => {
           </div>
         </div>
       </div>
+      <div> <Footer /></div>
     </>
 
 

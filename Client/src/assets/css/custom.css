@@ -1,4 +1,4 @@
-/* start Navigation */
+
 .navbar {
     background-color: #0076c0;
     height: 4.5rem;
@@ -54,7 +54,7 @@
     width: 25%;
     max-width: 100%;
     border-radius: 10px;
-   margin-left: 8rem;
+    margin-left: 8rem;
 }
 
 
@@ -63,124 +63,74 @@
     padding: 0;
     margin: 0;
     display: flex;
-  }
-  
-  .horizontal-list li {
+}
+
+.horizontal-list li {
     margin-right: 10px;
-  }
-  
-.section-between{
+}
+
+.section-between {
     margin-top: 5rem;
 }
+
 .form-control {
     height: 2.3rem !important;
-    /* width: 100% !important; */
     font-size: 15px !important;
     line-height: 30px;
     font-family: 'Helvetica', Arial, Lucida, sans-serif;
     font-weight: 500;
     text-align: left;
     background-color: #f7fafc !important;
-    /* border: rgb(235, 235, 235) 1px solid !important; */
     color: #555555;
     border-radius: none !important;
 
 }
 
 .form-control:focus {
-    /* border-radius: 2px !important; */
     box-shadow: 0 0 4px 0 rgba(255, 127, 80, 0.9) !important;
 }
 
-.form-textarea {
-    height: 6rem !important;
-    font-size: 15px !important;
-    line-height: 30px;
-    font-family: 'Helvetica', Arial, Lucida, sans-serif;
-    font-weight: 500;
-    text-align: left;
-    background-color: #f7fafc !important;
-    border: rgb(235, 235, 235) 1px solid !important;
-    color: #555555;
 
+.item-img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    object-fit: cover;
+    transform: scale(1.001);
+    transition: transform 1.2s ease 0s;
 }
-
-.form-textarea:focus {
-    border-radius: 2px !important;
-    box-shadow: 0 0 4px 0 rgba(255, 127, 80, 0.9) !important;
-}
-/* End navigation */
-
-/* start Banner */
-
-.banner-title {
-    font-weight: 600;
-    font-size: 70px;
-    line-height: 70px;
-    color: var(--title-color);
-    font-family: var(--helvetica);
-}
-
-.banner-subTitle {
-    font-weight: 600;
-    font-size: 19px;
-    line-height: 13px;
-    color: var(--sub-title-color);
-    font-family: var(--helvetica);
-}
-
-.banner-desc {
-    font-weight: 400;
-    font-size: 1.1rem;
-    line-height: 35px;
-    color: #555555;
-    text-align: justify;
-    padding-right: 5rem;
-    font-family: var(--helvetica);
-}
-
-
-
-/* End banner */
-
-/* ........Service section.....  */
-
-
-.serviceContainer {
-    background-color: #F8F8F8;
-    max-width: 100%;
-    height: auto;
-    margin-top: 5rem;
+.item-img2 {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    top: 0px;
+    left: 0px;
+    /* object-fit: cover; */
+    transform: scale(1.001);
+    transition: transform 1.2s ease 0s;
 }
 
 .serviceCard {
-    /* margin: 15px 5px 5px 5px; */
-    /* height: 26rem; */
     width: 100%;
     padding: 60px 30px 30px 30px;
-    /*top right bottom left*/
     box-shadow: 0px 0px 2px 1px rgba(128, 131, 134, 0.2);
     background-color: #FFFFFF;
     box-sizing: border-box;
-    height: 70%;
+    height: 100%;
     margin-bottom: 5rem;
 
 
 }
 
 .serviceCard:hover {
-    box-shadow: 0 0 8px 0 rgba(0, 15, 230, 0.2);
-    border: 1px solid #360644;
+    box-shadow: 0 4px 8px 2px rgba(0, 15, 230, .2);
 }
 
-.serviceName {
-    margin-top: -2rem;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.375rem;
-    font-weight: 600;
-    color: #2B2B2B;
 
-}
+
+
 
 .serviceMainTitle {
     /* color: #0076c0; */
@@ -195,94 +145,6 @@
     text-align: center;
 }
 
-.logoImage {
-    position: relative;
-    top: -40px;
-    min-height: 50px;
-    max-width: 50px;
-}
-
-.serveLink {
-    color: #F89A1C;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    text-decoration: none !important;
-    /* color: #0073e6; */
-
-}
-
-.serveLink:hover {
-    text-decoration: none !important;
-    color: #005BAA;
-
-}
-
-/* end service  */
-
-/* client slide */
-.sectionBetween {
-    margin-top: 5rem;
-}
-
-.allClientImage {
-    max-width: 600px;
-    height: 100px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 5px;
-}
-
-
-
-
-
-.cardTitle {
-    color: #0076c0;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-}
-
-.cardSubTitle {
-    color: #0076c0;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-}
-
-.workCard {
-    margin-top: 14%;
-    padding: 10px 10px 10px 10px;
-    border-radius: 2px;
-    background-color: #2a2c2e;
-}
-
-.SummarySection {
-    margin-top: 5rem;
-}
-
-/* start why choose */
-.subTitle {
-    color: #555555 !important;
-    font-size: 1.5rem;
-
-    font-family: var(--helvetica);
-    font-weight: 700;
-    line-height: 30px;
-    /* text-decoration: none solid rgb(39, 48, 68) !important; */
-    word-spacing: 0px;
-    text-align: left;
-
-}
-
-.why-choose-img {
-    height: auto;
-    width: 100%;
-    border-radius: 6px;
-    margin-top: 2rem;
-
-}
 
 /* start footer */
 .before-footer-part {
@@ -308,7 +170,7 @@
 .footerSection {
     min-height: 300px;
     box-shadow: 0 0 4px 0 rgba(138, 145, 243, 0.2);
-    background-color: #182659;
+    background-color:rgb(0, 47, 74);
     padding: 3rem;
 }
 
@@ -397,156 +259,3 @@
 }
 
 /* end footer */
-
-
-/* //its for pagetop 3 image change */
-.topFixedPage3 {
-    margin-top: 3rem;
-    /* background-image: url("../images/slideImg1.jpg"); */
-    min-height: 420px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-}
-
-.topPageOverlay {
-    position: absolute;
-    min-height: 420px;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1;
-
-}
-
-.topblogOverly {
-    position: absolute;
-    min-height: 330px;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-    z-index: 1;
-
-}
-
-.topPageTitle {
-    margin-top: 9rem;
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, 'Helvetica', sans-serif;
-    font-weight: 600;
-    color: #ffffff;
-    /* color: #000; */
-    font-size: 2rem;
-    text-transform: uppercase;
-
-}
-
-.topPageAccSoftTitle {
-    margin-top: 11rem;
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, 'Helvetica', sans-serif;
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 1.8rem;
-    text-transform: uppercase;
-}
-
-.topPagesubTitle {
-    font-family: Arial, 'Helvetica', sans-serif;
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 1.1rem;
-}
-
-.topPagesubTitle2 {
-    font-family: Arial, 'Helvetica', sans-serif;
-    font-weight: 500;
-    color: #F89A1B;
-    line-height: 3px;
-    font-size: 1rem;
-}
-
-.topPageContent {
-    margin-top: 8rem;
-}
-
-/* .topPageTitle {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 28px;
-} */
-
-/* end pageTop */
-
-
-/* ...... */
-.quotationTitle {
-    color: #273044;
-    font-family: var(--helvetica);
-    font-size: 29px;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    margin-left: 8.5rem;
-}
-
-.fromTitle {
-    color: #273044;
-    font-family: var(--helvetica);
-    font-size: 29px;
-    font-weight: 600;
-    margin-bottom: 1rem;
-}
-
-.contactCard {
-    height: auto;
-    padding: 25px 45px 25px 45px;
-    box-shadow: 0 0 8px 0 rgba(0, 15, 230, 0.2);
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-    margin-bottom: 3rem;
-}
-
-.contactUI {
-    color: #000 !important;
-    /* width: 70%; */
-    font-size: 20px;
-    font-family: 'Helvetica Neue', Helvetica, Arial, Lucida, sans-serif;
-    font-weight: 500;
-    line-height: 30px;
-    word-spacing: 0px;
-    text-align: left;
-    padding: 20px 100px 40px 150px;
-    /* margin: 0 0 5px 0; */
-
-}
-
-.contactIcon {
-    width: 40px !important;
-    height: 40px !important;
-    color: #360644;
-    margin-right: 20px;
-}
-
-.form-label {
-    color: #555555;
-    font-size: 1.1rem;
-    font-weight: 500;
-    font-family: 'Helvetica', Arial, Lucida, sans-serif;
-    line-height: 1.8rem;
-    text-align: justify;
-    word-spacing: 0px;
-}
-
-
-
-.commonDesc {
-    color: #555555;
-    font-size: 1.1rem;
-    font-weight: 500;
-    font-family: 'Helvetica', Arial, Lucida, sans-serif;
-    line-height: 1.8rem;
-    text-align: justify;
-    word-spacing: 0px;
-}
-
-/* end contact */

@@ -3,6 +3,7 @@ import Banner from "../components/cards/Banner";
 import axios from "axios";
 import ProductCard from "../components/cards/ProductCard";
 import TopSlideShow from "../components/cards/TopSlideShow";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const [products, setProducts] = useState([]);
@@ -61,7 +62,7 @@ const Home = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <h2 className="p-2 mt-2 mb-2 h3 bg-dark text-light">
+            <h2 className="p-2 mt-2 mb-2 h3  text-light" style={{backgroundColor:'#3698BD'}}>
               New Arrivals
             </h2>
             <div className="row">
@@ -74,7 +75,7 @@ const Home = () => {
           </div>
 
           <div className="col-lg-12">
-            <h2 className="p-2 mt-2 mb-2 h3 bg-dark text-light">
+            <h2 className="p-2 mt-2 mb-2 h3 text-light" style={{backgroundColor:'#3698BD'}}>
               Best Sellers
             </h2>
             <div className="row">
@@ -102,6 +103,7 @@ const Home = () => {
           )}
         </div>
       </div>
+      <div> <Footer /></div>
     </>
   );
 }

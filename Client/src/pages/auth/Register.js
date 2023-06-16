@@ -6,6 +6,7 @@ import Banner from '../../components/cards/Banner';
 import { useAuth } from "../../context/auth";
 import { useNavigate } from "react-router-dom";
 import TopSlideShow from "../../components/cards/TopSlideShow";
+import Footer from "../../components/Footer";
 
 const RegisterPage = () => {
     // state
@@ -55,7 +56,7 @@ const RegisterPage = () => {
                                 <form onSubmit={handleSubmit}>
                                     <input
                                         type="text"
-                                        className="form-control mb-4 p-2"
+                                        className="form-control mb-4 p-2 animated fadeInUp"
                                         placeholder="Enter your name"
                                         value={name}
                                         onChange={(e) => setName(e.target.value)}
@@ -64,7 +65,7 @@ const RegisterPage = () => {
 
                                     <input
                                         type="email"
-                                        className="form-control mb-4 p-2"
+                                        className="form-control mb-4 p-2 animated fadeInUp"
                                         placeholder="Enter your email"
                                         value={email}
                                         onChange={(e) => setEmail(e.target.value)}
@@ -72,13 +73,13 @@ const RegisterPage = () => {
 
                                     <input
                                         type="password"
-                                        className="form-control mb-4 p-2"
+                                        className="form-control mb-4 p-2 animated fadeInUp"
                                         placeholder="Enter your password"
                                         value={password}
                                         onChange={(e) => setPassword(e.target.value)}
                                     />
 
-                                    <button className="btn w-100 animated fadeInUp float-end btn-primary " type="submit">
+                                    <button className="btn w-100 animated fadeInUp float-end btn-primary animated fadeInUp " type="submit">
                                         Submit
                                     </button>
                                 </form>
@@ -87,6 +88,7 @@ const RegisterPage = () => {
                     </div>
                 </div>
             </div>
+            <div> <Footer /></div>
         </div>
     );
 };

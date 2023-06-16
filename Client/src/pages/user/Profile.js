@@ -26,7 +26,7 @@ const UserProfile=()=> {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.put("/profile", {
+      const { data } = await axios.put("/update-profile", {
         name,
         password,
         address,
@@ -50,6 +50,7 @@ const UserProfile=()=> {
 
   return (
     <>
+      <div className="section-between"></div>
       <Banner title={`Hello ${auth?.user?.name}`} subTitle="Dashboard" />
 
       <div className="container-fluid">

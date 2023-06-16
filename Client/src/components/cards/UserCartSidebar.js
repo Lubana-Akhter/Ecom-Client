@@ -40,7 +40,7 @@ const UserCartSidebar=()=> {
     });
     return total.toLocaleString("en-US", {
       style: "currency",
-      currency: "USD",
+      currency: "BDT",
     });
   };
 
@@ -125,7 +125,7 @@ const UserCartSidebar=()=> {
             <button
               onClick={handleBuy}
               className="btn btn-primary col-12 mt-2"
-              // disabled={!auth?.user?.address || !instance || loading}
+              disabled={!auth?.user?.address || !instance || loading}
             >
               {loading ? "Processing..." : "Buy"}
             </button>

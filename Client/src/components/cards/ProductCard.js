@@ -11,7 +11,7 @@ const ProductCard = ({ p }) => {
 
   return (
    
-      <div className="card mb-3 hoverable">
+      <div className="serviceCard mb-3">
         <Badge.Ribbon text={`${p?.sold} sold`} color="red">
           <Badge.Ribbon
             text={`${p?.quantity >= 1
@@ -22,10 +22,10 @@ const ProductCard = ({ p }) => {
             color="green"
           >
             <img
-              className="card-img-top"
+              className="item-img"
               src={`${process.env.REACT_APP_API}/product/photo/${p._id}`}
               alt={p.name}
-              style={{ height: "200px", objectFit: "cover" }}
+             
             />
           </Badge.Ribbon>
         </Badge.Ribbon>
@@ -45,7 +45,7 @@ const ProductCard = ({ p }) => {
 
         <div className="d-flex justify-content-between">
           <button
-            className="btn btn-primary col card-button"
+            className="btn btn-primary col card-button m-2"
             style={{ borderBottomLeftRadius: "5px" }}
             onClick={() => navigate(`/product/${p.slug}`)}
           >
@@ -53,7 +53,7 @@ const ProductCard = ({ p }) => {
           </button>
 
           <button
-            className="btn btn-outline-primary col card-button"
+            className="btn btn-outline-primary col card-button m-2"
             style={{ borderBottomRightRadius: "5px" }}
             onClick={() => {
               setCart([...cart, p]);
